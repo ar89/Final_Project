@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+html * {
+    box-sizing: border-box;
+} 
+
+html, body {
+    font-size: 12px;
+    font-family: Helvetica,Arial,Sans-Serif;
+    background-color:whitesmoke;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 10px;
+    background-color : yellow;
+}
+
+  
+  table, td, tr {
+    border: 2px solid black;
+    padding-left: 10px;
+    align-items: center;
+    
+  }
+
+
+
+body{
+    font-family: Lora, serif;
+    font-size: 24px;
+    color: purple;
+    font-weight: bold;
+    font-style: italic;  }
+
+    main {
+    background: url('machine\ learning.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+div.pictures {
+    display: flex;
+  
+}
+
+div img {
+
+    max-width: auto;
+    height: 50px;
+    margin-right: 26px;
+    /* margin-left: 200px; */
+}
+
+.left {
+    padding-left: 100px;
+    width: 40%;
+}
+
+
+p {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    
+    }
+
+
+
+a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    
+    
+}
+
+header { 
+    text-align: center;
+    font-size: 40px;
+ }
+
+ h1 { 
+    width: 100%;
+    margin-bottom: 20px;
+     background-color: #888;
+    overflow: auto;
+}
+
+
+.h1 {
+background-color: red;
+border: 1px solid black;
+padding: 5px;
+margin-right: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    font-style: normal;
+    text-decoration: none;
+    }
+
+    .h1 a{ 
+    float: left;
+    padding: 12px 0;
+    color: black;
+    position: fixed;
+}
+
+    
+
+.topnav {
+    overflow: hidden;
+    background-color: red;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    border-bottom: 3px solid blue;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid blue;
+  }
+
+  
+
+  @media screen and (max-width: 500px) {
+    .h1 a{
+      float: none;
+      display: block;
+    }
+  }
+  
+
+h1 ul {
+    display: flex;
+    padding: 5px;
+    color: yellow;
+
+}
+
+
+
+
+h1 ul li {
+    display:flex;
+    padding: 16px 16px;
+    }
+
+
+
+.pictures {
+margin-bottom: 60px;
+}
+
+.dots {
+    display: flex;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #ffff;
+    margin-right: 50px;
+    border-radius:50%;
+
+}
+
+
+.dot.active {
+    opacity: 1;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    color:black;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+logo {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
+
+button {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-style:italic;
+    padding: 32px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.footer {
+    left: 0;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    border-radius: 10%;
+  }
+  footer#webfoot p  {
+    background-color: chocolate;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    }
